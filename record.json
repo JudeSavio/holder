@@ -1,0 +1,58 @@
+{
+    "mainTitle" : "Inventory List",
+    "date" : {
+       "day" : 31,
+       "month" : 12,
+       "year" : 2021 
+    },
+    "record" : [
+        {
+            "building" : "B01-Main",
+            "address" : {
+                "number" : 5,
+                "street" : "Street23",
+                "city" : "Wollongong"
+            },
+            "inventory" : 
+            [
+                {
+                    "serialNumber" : "SerPE046",
+                    "description" : "Main Server",
+                    "status" : "ok"
+                },
+                {
+                    "serialNumber" : "PrHP02",
+                    "description" : "Printer(second floor)",
+                    "status" : "ok"
+                },
+                {
+                    "serialNumber" : "L0123",
+                    "description" : "Laptop in storage",
+                    "status" : "damaged"
+                }
+            ]
+        },
+
+        {
+            "building" : "B5",
+            "address" : {
+                "number" : 31,
+                "street" : "Powell St",
+                "city" : "Bowral"
+            },
+            "inventory" : 
+            [
+                {
+                    "serialNumber" : "SerD23",
+                    "description" : "Server",
+                    "status" : "ok"
+                },
+                {
+                    "serialNumber" : "CoHP125",
+                    "description" : "Personal computer",
+                    "status" : "repair"
+                }
+            ]
+        }
+    ]
+}
